@@ -55,6 +55,7 @@ public class Test2 {
          *body:byte[] 消息本身
          */
         channel.basicPublish("", "simple01", null, msg.getBytes());
+        System.out.println("123123");
 
     }
 
@@ -81,6 +82,7 @@ public class Test2 {
 //            System.out.println(properties.getBodySize());
 //            System.out.println(properties.getPriority());
 //        }
+
     }
 
 
