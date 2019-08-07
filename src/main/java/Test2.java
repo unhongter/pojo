@@ -56,6 +56,7 @@ public class Test2 {
          */
         channel.basicPublish("", "simple01", null, msg.getBytes());
         System.out.println("123123");
+        System.out.println("45555");
 
     }
 
